@@ -1,0 +1,118 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(business.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+    backgroung-position:center;
+    position: fixed;
+}
+.row ul{
+    list-style: none;
+}
+.row ul li{
+    background-color: transparent;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 26px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: azure;
+    font-size: 19px;
+    cursor: pointer;
+    position: relative;
+}
+.row ul li:hover{
+    background-color: red;
+}
+.row ul ul{
+    display: none;
+}
+.row ul li:hover > ul{
+    display: block;
+}
+.row ul ul ul{
+    margin-left: 150px;
+    top:0px;
+    position:absolute;
+}
+.logo img
+{
+    width: 120px;
+    size:auto;
+    float:left;
+}
+
+
+body
+{
+    font-family: monospace;
+}
+
+.hero
+{
+    padding: auto;
+    position: absolute;
+    width:1000px auto;
+    margin-left: 0;
+    margin-top: 300px;
+}
+h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 65px;
+    text-align: center;
+    margin-top: 10px ;
+    float: right;
+
+    
+}
+.button
+{
+    margin-top: 30px;
+    margin-left: 320px;
+    cursor: pointer;
+}
+.btn
+{
+    border:1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform:uppercase;
+}
+.btn-one
+{
+    background-color: orangered;
+    font-family: "Roboto",sans-serif;
+}
+.btn-two
+{
+    font-family: "Roboto",sans-serif;
+}
+
+.btn-two:hover
+{
+    background-color: orangered;
+    transition: 0.5s ease-in;
+}
+.cl
+{
+    position: relative;
+    float: inherit;
+}
+
+

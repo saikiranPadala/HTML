@@ -1,0 +1,100 @@
+body
+{
+    margin:0;
+    padding: 0;
+    background: url(business.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.accountbox{
+    width:620px;
+    height:600px;
+    background: whitesmoke;
+    color:black;
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 30px 30px;
+}
+.acc
+{
+    float:right;
+    width:250px;
+    height:150px;
+    position:relative;
+    top:205px;
+    margin: auto
+};
+h1{
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-size: 30px;
+}
+.accountbox p{
+    
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.accountbox input{
+    width: 50%;
+    margin-bottom:10px;
+    
+}
+.accountbox input[type="text"],input[type="password"]
+{
+    border:none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    
+    font-size: 16px;
+}
+.accountbox input[type="submit"]
+{
+    border:none;
+    outline: none;
+    background: blue;
+    color: white;
+    font-size: 19px;
+    height: 40px;
+    border-radius: 20px;
+}
+.accountbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background:black;
+    color:white;
+}
+.button
+{
+    
+    background: transparent;   
+    
+}
+.btn
+{
+    color: azure;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
